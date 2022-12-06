@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Perfil</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+    <!--Area de Navegacion-->
+    <header class="flex-container">    
+            <nav class = "flex-container">
+                <a href="#" style="font-size: 30px"> Profile</a> <!--Definimos el tamaño de la letra--> 
+                <a href="#">Home</a>
+                <a href="#" style="font-size: 20px">My Profile</a><!--Definimos el tamaño de la letra-->
+                <a href="#">Find</a>
+                <a href="#">Connections</a>
+            </nav>
+            <nav class ="flex-container">
+                <button class = "sing-out">Sing out</button>
+            </nav>  
+    </header> 
+    <main class="principal">
+        <!--Area de Caja 1-->
+        <div class="caja1">
+                <div class="sub-caja1" ></div>
+            <div class="avatar-holder">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1820405/profile/profile-512.jpg?1533058950" alt="Albert Einstein">
+            </div>
+            <div class="area-texto-zona1">
+                <h2 id = "username">Jane Doe</h2>
+                <p><img src="./img/icons/map-marker.png" alt="mapa" class="icon-mapa">Lambare</p>
+                <p>Developer | Enginner | Problem Solver</p>
+                <p>Master of shadows and the Internet!</p>
+                <img src="./img/icons/gear.png" alt="gear" class ="icon-gear">
+                <!--Evitamos que esta etiqueta tome el efecto del css y aplicamos el style deseado-->
+                <a href="#" style="color: rgb(7, 64, 221);text-decoration: underline;" onclick="cambiarNombre(this)">edit profile</a>
+            </div>
+        </div>
+        <!--Area de Caja 2-->
+        <div class = "caja2">
+            <div class="sub-caja2" ></div>
+            
+            <div class="sub-titulo-2">
+                <span class = "primer-nro" id = "requests">2</span>
+                <h2>Connection Requests</h2>
+            </div>
+                <div class="area-texto-zona3" id = "areatexto1">
+                    <img src="./img/icons/icon-user2.png" alt="icon1" class="icon-user2">
+                    <p>Todd E</p>
+                </div>
+                <div class="area-texto-zona4" id = "areatexto2">
+                    <img src="./img/icons/icon-user2.png" alt="icon2" class="icon-user2">
+                <p>Phill K</p>
+                </div>
+                <div class = "icon-validacion1">
+                    <img src="./img/icons/accept-circle.png" alt="aceptar" class ="img-validator1" onclick='aceptar("#areatexto1")'>
+                    <img src="./img/icons/close-circle.png" alt="cerrar"  class ="img-validator1" onclick='cerrar("#areatexto1")'>   
+                </div>
+            <div class = "icon-validacion2">
+                <img src="./img/icons/accept-circle.png" alt="aceptar" class ="img-validator1" onclick='aceptar("#areatexto2")'>
+                <img src="./img/icons/close-circle.png" alt="cerrar"  class ="img-validator1" onclick='cerrar("#areatexto2")'>   
+            </div>
+        </div>
+        <!--Area de Caja 3-->
+        <div class="caja3">
+            <div class="sub-caja3">
+                <span class = "segundo-nro" id = "connections">418</span>
+            </div>
+            <div class="sub-titulo-3">
+                <h2>Your Connections</h2>
+            </div>
+            <div class="area-icon-2">
+                <img src="./img/icons/icon-user2.png" alt="2" class="icon-user2">
+                <p>Adrien D</p>
+            </div>
+            <div class="area-icon-3">
+                <img src="./img/icons/icon-user2.png" alt="2" class="icon-user2">
+                <p>Anne J</p>
+            </div>
+            <div class="area-icon-4">
+                <img src="./img/icons/icon-user2.png" alt="2" class="icon-user2">
+                <p>Alayne T</p>
+            </div>
+            <div class="area-icon-5">
+                <img src="./img/icons/icon-user2.png" alt="2" class="icon-user2">
+                <p>Arry Y</p>
+            </div>
+        </div>
+        <div class ="caja4">
+            <a href="#" style="color: rgb(7, 64, 221);text-decoration: underline;">View More</a>
+        </div>
+    <!--Area de Caja 5-->
+        <div class="caja5">
+            <div class="sub-caja5">
+            </div>
+            <div class="sub-titulo-4">
+                <h2>Education</h2>
+            </div>
+            <div class="area-texto-zona5">
+                <p style="font-size:23px;font-weight: bold;"> Coding Dojo - Full Stack Bootcamp</p>
+                <p>Dec 2019 - Mar 2020</p>
+                <p style="font-size:23px;font-weight: bold;">Triple black belt in Java, MERN, and C#</p>
+            </div>
+        </div>
+    </main>
+    <script src="./static/js/logic.js"></script>
+<body>
+</body>
+</html>

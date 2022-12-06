@@ -1,0 +1,285 @@
+/*Engloabamos margen*/  
+* {
+
+}
+
+/*Definimos color para el area de navegacion*/
+header {
+  background-color: black;
+}
+
+  /*Definimos espacios entre los bloques, y tipo de letra */
+.flex-container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  font-family: Arial;
+  font-weight: bold;
+
+}
+
+    /*Definimos color, tamaño en el boton de Sing out*/
+.sing-out {
+  background-color: rgb(10, 150, 150);
+  color: white;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor:pointer;
+
+    
+}
+
+/*Quitamos el subrayado del link y definimos color*/
+a {
+
+    text-decoration: none;
+    color: white;
+}
+div {
+    position: absolute;
+  }
+
+/*Espaciados entre las palabras*/
+nav a {
+    margin-left: 20px;
+}
+
+.principal {
+padding: 30px;
+}
+
+.caja1 {
+    
+    background-color: white;
+    margin-left: 228px;
+    height: 390px ;
+    width: 500px;
+    border: 1px solid #656060;
+}
+
+.sub-caja1 {
+    background-color:  rgb(10, 150, 150);
+    margin-left: 0px;
+    width: 500px;
+    height: 100px ;
+}
+
+.avatar-holder {
+    /* position: absolute; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 56px;
+    margin-left: 20px;
+    box-shadow: 0 0 0 5px #151515,
+                inset 0 0 0 5px #000000,
+                inset 0 0 0 5px #000000,
+                inset 0 0 0 5px #000000,
+                inset 0 0 0 5px #000000,;
+    background: white;
+    overflow: hidden;
+    animation: mvTop 1.5s;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    object-fit: cover;
+  }
+
+  .area-texto-zona1 {
+    margin-left: 20px;
+    top:160px;
+  }
+.sub-titulo-2{
+    margin-left: 80px;
+    color: white;
+    display: -webkit-box;
+}
+  p,h2 {
+    
+    font-family: "Comic Sans MS", "Comic Sans";
+  }
+
+  .links-edit {
+    color: blue;
+  }
+.icon-mapa{
+
+    width: 20px;
+    height: 20px;
+    
+
+}
+  .icon-gear {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    object-fit: cover;
+    align-items: center;
+    
+  } 
+
+.caja2 {
+  background-color: white;
+  margin-left: 760px;
+  height: 290px ;
+  width: 493px;
+  border: 1px solid #656060;
+}
+
+.caja3 {
+  background-color: white;
+  margin-left: 760px;
+  height: 320px ;
+  width: 493px;
+  top: 430px;
+  border: 1px solid #656060;
+}
+
+.caja4 {
+  padding-top: 20px;
+  background-color: white;
+  margin-left: 760px;
+  height: 40px ;
+  width: 493px;
+  top: 750px;
+  border: 1px solid #656060;
+  }
+
+.caja5 {
+  background-color: white;
+  margin-left: 228px;
+  height: 260px ;
+  width: 499px;
+  top: 530px;
+  border: 1px solid #656060;
+  }
+
+  .sub-caja5 {
+    background-color: grey;
+    margin-left: 0px;
+    width: 499px;
+    height: 70px ;
+    color: white;
+
+}
+  .sub-caja2 {
+    background-color: grey;
+    margin-left: 0px;
+    width: 493px;
+    height: 70px ;
+
+}
+.sub-caja3 {
+    background-color: grey;
+    margin-left: 0px;
+    width: 493px;
+    height: 70px ;
+}
+.icon-2 {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+}
+
+.area-texto-zona3 {
+  margin-left: 20px;
+  top: 90px;
+  display: flex;
+}
+
+.area-texto-zona4 {
+  margin-left: 20px;
+  top: 160px;
+  display: flex;
+}
+
+.icon-user2 {
+  width: 50px;
+  height: 50px;
+}
+
+.icon-validacion1 {
+  left: 360px;
+  top: 95px;
+  cursor:pointer;
+}
+.icon-validacion2 {
+  left: 360px;
+  top: 160px;
+  cursor: pointer;
+}
+.img-validator1 {
+  width: 50px;
+  height: 50px;
+}
+
+.icon-3 {
+  width: 60px;
+  height: 60px;
+}
+
+.sub-titulo-3 {
+    margin-left: 80px;
+    color: white;
+  
+}
+.sub-titulo-4 {
+    margin-left: 30px;
+    color: white;
+  
+}
+
+.area-icon-2 {
+    margin-left: 20px;
+    top: 80px;
+    display: flex;
+}
+.area-icon-3 {
+    margin-left: 20px;
+    top: 140px;
+    display: flex;
+}
+.area-icon-4 {
+    margin-left: 20px;
+    top: 200px;
+    display: flex;
+}
+.area-icon-5 {
+    margin-left: 20px;
+    top: 260px;
+    display: flex;
+}
+
+
+.area-texto-zona5 {
+    margin-left: 15px;
+    top: 80px;
+}
+
+.primer-nro {
+  font-size: 2rem;
+  height: 24px;
+  line-height: 75px;
+  padding: 0 10px;
+  background-color: #999;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+.segundo-nro {
+  font-size: 2rem;
+  height: 24px;
+  line-height: 75px;
+  padding: 0 10px;
+  background-color: #999;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+
+
+
